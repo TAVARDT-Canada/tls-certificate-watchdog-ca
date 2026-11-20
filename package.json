@@ -1,0 +1,7 @@
+{
+  "name": "@tavardt-ca/tls-certificate-watchdog",
+  "version": "1.0.0",
+  "description": "Automated TLS/SSL certificate monitoring, cipher suite auditing, and PIPEDA transport layer encryption compliance.",
+  "license": "MIT",
+  "author": "TAVARDT Canada (https://ag.tavardt.com/ca/)"
+}
