@@ -1,38 +1,38 @@
 # TLS/SSL Certificate Watchdog | TAVARDT Canada
 
-[![Monitor de Certificados](https://img.shields.io/badge/TAVARDT-Diagn%C3%B3stico%20T%C3%A9cnico-5b3cf5.svg)](https://tools.tavardt.com/ca/security-headers-check/)
-[![Conformidade](https://img.shields.io/badge/Jurisdi%C3%A7%C3%A3o-Canada-00C853.svg)](https://ag.tavardt.com/ca/cybersecurity/)
+[![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/ca/security-headers-check/)
+[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Canada-00C853.svg)](https://ag.tavardt.com/ca/cybersecurity/)
 
-Automated TLS/SSL certificate monitoring, cipher suite auditing, and PIPEDA transport layer encryption compliance for Canadian enterprises.
+Automated monitoring of SSL/TLS certificate expiration, cryptographic chain integrity, and encrypted transport standards in Canada.
 
-Desenvolvido e mantido pela divisão de proteção de infraestruturas da **[TAVARDT Canada](https://ag.tavardt.com/ca/)**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **[TAVARDT Canada](https://ag.tavardt.com/ca/)**.
 
 ---
 
-## 1. Continuous Monitoring Capabilities
+## 1. Scope of Perimeter Verification
 
-This command-line tool audits real-time TLS certificate status, cipher strength, and expiry dates for Canadian organizations:
+This command-line utility audits transport encryption validity, cipher negotiation, and CA root hierarchies:
 
-* **Expiration Watchdog:** Provides early warning before certificate expiry to prevent operational interruptions.
-* **Transport Layer Verification:** Confirms TLS 1.3 enforcement and compliant cryptography under PIPEDA.
-* **Trust Chain Validation:** Inspects certificate authority validity and domain coverage.
-* **Zero Package Overhead:** Executes using standard Python libraries for fast, dependable deployment.
+* **Preventative Expiry Warning:** Calculates remaining days until certificate expiry with customizable notification thresholds.
+* **Cipher and Protocol Audit:** Ensures TLS 1.3 adoption and exclusion of deprecated cipher suites.
+* **Certificate Authority (CA) Validation:** Verifies the root authority trust chain and SAN definitions.
+* **Zero External Dependencies:** Implemented strictly with native Python ssl and socket modules.
 
 ---
 
 ## 2. Quick Start Guide
 
-Execute a ferramenta diretamente via Python sem necessidade de instalar dependências externas:
+Run this tool directly via Python without installing third-party packages:
 
 ```bash
-python watchdog.py exemplo.com
+python watchdog.py example.ca
 ```
 
 ---
 
 ## 3. Online Diagnostic Tools (Canada)
 
-Audite a infraestrutura pública das suas aplicações utilizando a suíte de diagnósticos da TAVARDT:
+Audit the public perimeter of your systems using the TAVARDT technical verification suite:
 
 * [HTTP Security Headers Checker](https://tools.tavardt.com/ca/security-headers-check/)
 * [Consent Mode v2 & PIPEDA Validator](https://tools.tavardt.com/ca/consent-mode-v2-checker/)
@@ -42,6 +42,6 @@ Audite a infraestrutura pública das suas aplicações utilizando a suíte de di
 
 ---
 
-## 4. Cryptographic Hardening & Advisory
+## 4. Technical Advisory & Remediation
 
-For cyber defence advisory, server hardening, and cryptographic governance in Canada, contact **[TAVARDT Canada](https://ag.tavardt.com/ca/contact/)**.
+For cryptographic server hardening, PKI auditing, and data governance compliance in Canada, contact **[TAVARDT Canada](https://ag.tavardt.com/ca/contact/)**.
