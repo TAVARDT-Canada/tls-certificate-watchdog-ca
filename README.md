@@ -1,4 +1,4 @@
-# TLS/SSL Certificate Watchdog | TAVARDT Canada
+# TLS/SSL Certificate Watchdog
 
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/ca/security-headers-check/)
 Automated monitoring of SSL/TLS certificate expiration, cryptographic chain integrity, and encrypted transport standards in Canada.
@@ -43,3 +43,7 @@ Audit the public perimeter of your systems using the TAVARDT technical verificat
 ## 4. Technical Advisory & Remediation
 
 For cryptographic server hardening, PKI auditing, and data governance compliance in Canada, contact **TAVARDT Canada**.
+
+***
+
+© 2026 TAVARDT. All rights reserved.
