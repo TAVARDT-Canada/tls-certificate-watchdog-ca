@@ -1,13 +1,11 @@
 # TLS/SSL Certificate Watchdog | TAVARDT Canada
 
 [![Scope of Perimeter Verification](https://img.shields.io/badge/TAVARDT-Technical%20Audit-5b3cf5.svg)](https://tools.tavardt.com/ca/security-headers-check/)
-[![Jurisdiction](https://img.shields.io/badge/Jurisdiction-Canada-00C853.svg)](https://ag.tavardt.com/ca/cybersecurity/)
-
 Automated monitoring of SSL/TLS certificate expiration, cryptographic chain integrity, and encrypted transport standards in Canada.
 
-Developed and maintained by the cybersecurity and infrastructure defense division of **[TAVARDT Canada](https://ag.tavardt.com/ca/)**.
+Developed and maintained by the cybersecurity and infrastructure defense division of **TAVARDT Canada**.
 
----
+***
 
 ## 1. Scope of Perimeter Verification
 
@@ -18,7 +16,7 @@ This command-line utility audits transport encryption validity, cipher negotiati
 * **Certificate Authority (CA) Validation:** Verifies the root authority trust chain and SAN definitions.
 * **Zero External Dependencies:** Implemented strictly with native Python ssl and socket modules.
 
----
+***
 
 ## 2. Quick Start Guide
 
@@ -28,20 +26,20 @@ Run this tool directly via Python without installing third-party packages:
 python watchdog.py example.ca
 ```
 
----
+***
 
 ## 3. Online Diagnostic Tools (Canada)
 
 Audit the public perimeter of your systems using the TAVARDT technical verification suite:
 
-* [HTTP Security Headers Checker](https://tools.tavardt.com/ca/security-headers-check/)
+* HTTP Security Headers Checker
 * [Consent Mode v2 & PIPEDA Validator](https://tools.tavardt.com/ca/consent-mode-v2-checker/)
 * [DMARC & Anti-Spoofing Verifier](https://tools.tavardt.com/ca/dmarc-checker/)
 * [Exposed Credentials & Secret Scanner](https://tools.tavardt.com/ca/exposed-files-scanner/)
 * [Full Canadian Tools Portal](https://tools.tavardt.com/ca/)
 
----
+***
 
 ## 4. Technical Advisory & Remediation
 
-For cryptographic server hardening, PKI auditing, and data governance compliance in Canada, contact **[TAVARDT Canada](https://ag.tavardt.com/ca/contact/)**.
+For cryptographic server hardening, PKI auditing, and data governance compliance in Canada, contact **TAVARDT Canada**.
